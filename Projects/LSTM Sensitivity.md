@@ -32,7 +32,7 @@ Edit devenv.nix to add what you need
 Enter the development shell
 `devenv shell`
 
-# Start working with developed devenv environment
+## Start working with developed devenv environment
 
 1. Navigate to your project directory
 `cd /path/to/my/project`
@@ -45,10 +45,15 @@ Enter the development shell
 
 
 Here is Quick Command Reference:
+
 Enter environment: `devenv shell`
+
 Start services (databases, etc.): `devenv up`
+
 Run tests: `devenv test`
+
 Update dependencies: `devenv update`
+
 Search for packages: `devenv search <name>`
 
 

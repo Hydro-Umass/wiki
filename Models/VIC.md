@@ -1,3 +1,2 @@
 
-
 This is a page that documents the workflow for running VIC.

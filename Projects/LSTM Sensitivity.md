@@ -2,6 +2,7 @@ This is the main page for the LSTM Sensitivy project.
 
 
 # Experiments:
+We use the CAMELS dataset to conduct a sensitivity analysis of deep learning model (LSTM) for hydrologic applications along with VIC model aplication to have a base comparison. 
 
 1. Different Forcings: 
 Training and testing with all three type forcings. Such as DayMET-DayMET, Maurer-Maurer, NLDAS-NLDAS.

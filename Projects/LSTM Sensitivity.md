@@ -2,6 +2,8 @@ This is the main page for the LSTM Sensitivy project.
 
 # Running on Unity
 
+First follow the instructions at []() to set up the `uv` environment and the source code. 
+
 We need this slurm script to start an experiment run
 ```bash
 #!/bin/bash

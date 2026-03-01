@@ -1,5 +1,23 @@
 This is the main page for the LSTM Sensitivy project.
 
+# Running on Unity
+
+We need this slurm script to start an experiment run
+```bash
+#!/bin/bash
+#SBATCH --time=3:00:00
+#SBATCH --nodes=1
+#SBATCH --partition=gpu
+#SBATCH --gpus-per-node=1
+#SBATCH --constraint="vram48"
+#SBATCH --mem=64g
+
+module load cuda/12.8 cudnn/8.9.7.29-12-cuda12.8
+
+/home/kandread_umass_edu/lstm/.venv/bin/python /home/kandread_umass_edu/lstm/experiments/exp1_forcings.py with nldas
+```
+
+Replace the paths in the command with your environment.
 
 # Experiments:
 We use the CAMELS dataset to conduct a sensitivity analysis of deep learning model (LSTM) for hydrologic applications along with VIC model aplication to have a base comparison. 

@@ -2,7 +2,7 @@ This is the main page for the LSTM Sensitivy project.
 
 # Running on Unity
 
-First follow the instructions at [Running uv-based Python projects](Unity/Runing%20uv-based%20Python%20projects.md) to set up the `uv` environment and the source code. 
+First follow the instructions at [Running uv-based Python projects](../Unity/Runing%20uv-based%20Python%20projects.md) to set up the `uv` environment and the source code. 
 
 We need this slurm script to start an experiment run
 ```bash
